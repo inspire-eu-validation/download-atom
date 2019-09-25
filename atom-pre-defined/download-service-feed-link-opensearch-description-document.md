@@ -11,20 +11,20 @@
 
 **Reference(s)**:
 
-* [TG DL](http://inspire.ec.europa.eu/id/ats/download-atom/master/atom-pre-defined/README#ref_TG_DL), Requirements 8, 39
-* [OpenSearch](http://inspire.ec.europa.eu/id/ats/download-atom/master/atom-pre-defined/README#ref_opensearch)
+* [TG DL](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#ref_TG_DL), Requirements 8, 39
+* [OpenSearch](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#ref_opensearch)
 
 **Test type**: Automated
 
 **Notes**
 
-As discussed in the [overview](http://inspire.ec.europa.eu/id/ats/download-atom/master/atom-pre-defined/README#dep) the OpenSearch description must conform to the OpenSearch specification. 
+As discussed in the [overview](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#dep) the OpenSearch description must conform to the OpenSearch specification. 
 
 The [hreflang attribute](#hreflang) that is referred to in the TG seems to be unnecessary. The MIWP-5 workgroup recommends the TG editors to remove the part regarding the [hreflang attribute](#hreflang) from requirement 8.
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-atom/master/atom-pre-defined/README#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

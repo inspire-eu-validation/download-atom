@@ -7,17 +7,17 @@
 **Test method**
 
 * Validate the Atom service feed:
-  * Validate the feed against the Relax NG schema in the [Atom specification](http://inspire.ec.europa.eu/id/ats/download-atom/master/atom-pre-defined/README#ref_atom) (or an equivalent test).
-  * Validate any XML elements in the [GeoRSS Simple](http://inspire.ec.europa.eu/id/ats/download-atom/master/atom-pre-defined/README#ref_georss_simple) namespace against http://www.georss.org/xml/1.1/georss.xsd (or an equivalent test; since only georss:point/polygon/box may be used, those elements could be examined directly for the number of values - 2 in point, etc. - and the range of the lat/lon values). 
+  * Validate the feed against the Relax NG schema in the [Atom specification](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#ref_atom) (or an equivalent test).
+  * Validate any XML elements in the [GeoRSS Simple](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#ref_georss_simple) namespace against http://www.georss.org/xml/1.1/georss.xsd (or an equivalent test; since only georss:point/polygon/box may be used, those elements could be examined directly for the number of values - 2 in point, etc. - and the range of the lat/lon values). 
 * Retrieve the resource at the URI in the [link to the OpenSearch Description](#opensearchlink) to get the OpenSearch Description. Validate the OpenSearch Description using a Relax NG or XML schema (or an equivalent test). 
 * For each [link to an Atom dataset feed](#atom_dataset_feed_link) in the service feed, retrieve the resource at that URL and validate it against the same assertions as the service feed.
 
 **Reference(s)**:
 
-* [TG DL](http://inspire.ec.europa.eu/id/ats/download-atom/master/atom-pre-defined/README#ref_TG_DL,) Requirements 2, 3, 4
-* [Atom](http://inspire.ec.europa.eu/id/ats/download-atom/master/atom-pre-defined/README#ref_atom)
-* [GeoRSS Simple](http://inspire.ec.europa.eu/id/ats/download-atom/master/atom-pre-defined/README#ref_georss_simple)
-* [OpenSearch](http://inspire.ec.europa.eu/id/ats/download-atom/master/atom-pre-defined/README#ref_opensearch)
+* [TG DL](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#ref_TG_DL,) Requirements 2, 3, 4
+* [Atom](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#ref_atom)
+* [GeoRSS Simple](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#ref_georss_simple)
+* [OpenSearch](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#ref_opensearch)
 
 **Test type**: Automated
 
@@ -27,7 +27,7 @@ Note that it was decided that conformance to third-party specifications will be 
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-atom/master/atom-pre-defined/README#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
