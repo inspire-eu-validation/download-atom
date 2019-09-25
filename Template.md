@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Schema validation](schema-validation.md)
+* [Schema validation](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/schema-validation)
 
 **Test method**
 
@@ -15,7 +15,8 @@ A paragraph of the for describing the test steps and assertions. Use bullets or 
 
 **Reference(s)**: 
 
-* References to the requirements. we should agree on abbreviations and collect them as a table in [readme.md](readme.md)
+The namespace prefixes used as described in [README](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/README#namespaces).
+* References to the requirements. we should agree on abbreviations and collect them as a table in [README](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/README)
 
 **Test type**: Automated or Manual
 
@@ -25,7 +26,7 @@ Any additional notes. We can also use this for open questions during drafting.
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](README.md#namespaces).
+The namespace prefixes used as described in [README](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
