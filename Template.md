@@ -15,8 +15,8 @@ A paragraph of the for describing the test steps and assertions. Use bullets or 
 
 **Reference(s)**: 
 
-The namespace prefixes used as described in [README](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/README#namespaces).
-* References to the requirements. we should agree on abbreviations and collect them as a table in [README](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/README)
+The namespace prefixes used as described in [README](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/README.md#namespaces).
+* References to the requirements. we should agree on abbreviations and collect them as a table in [README](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/README.md)
 
 **Test type**: Automated or Manual
 
@@ -26,7 +26,7 @@ Any additional notes. We can also use this for open questions during drafting.
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/README#namespaces).
+The namespace prefixes used as described in [README](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
