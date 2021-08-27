@@ -7,7 +7,8 @@
 **Test method**
 
 * check existence of the [self link](#selflink)
-* the [self link](#selflink) must be the same as the Download Service feed URI
+* test that the [self link](#selflink) is an HTTP URI
+* retrieve the resource at the [self link](#selflink) and test if the returned document is the same as the Download Service feed that is being tested currently
 * the [self link](#selflink)'s [hreflang attribute](#hreflang) must be the same as the [xml:lang attribute](#xmllang) of the Atom feed or if the [xml:lang attribute](#xmllang) is not given, it must be the [language code](#languageelement) defined in the OpenSearch description.
 
 **Reference(s)**:
