@@ -4,7 +4,7 @@ The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
-| [Pre-defined Atom](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined) | Atom feed with Open Search description |
+| [Pre-defined Atom](./atom-pre-defined) | Atom feed with Open Search description |
 
 ## Rules for HTTP requests
 
