@@ -13,8 +13,8 @@ The OpenSearch description must contain a ["Url" element](#urlelement) that desc
 
 **Reference(s)**:
 
-* [TG DL](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#ref_TG_DL), Requirement 42
-* [OpenSearch](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#ref_opensearch)
+* [TG DL](./README#ref_TG_DL), Requirement 42
+* [OpenSearch](./README#ref_opensearch)
 
 **Test type**:
 
@@ -28,7 +28,7 @@ The requirement has been updated according to the following TG change proposal: 
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#namespaces).
+The namespace prefixes used as described in [README.md](./README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

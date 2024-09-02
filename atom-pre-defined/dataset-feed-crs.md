@@ -10,7 +10,7 @@
 
 **Reference(s)**:
 
-* [TG DL](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#ref_TG_DL), Requirement 35
+* [TG DL](./README#ref_TG_DL), Requirement 35
 
 **Test type**:
 
@@ -22,7 +22,7 @@ Testing the contents of the value for being a valid CRS code is hard to automate
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-atom/3.1/atom-pre-defined/README#namespaces).
+The namespace prefixes used as described in [README.md](./README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
