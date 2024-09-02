@@ -11,7 +11,7 @@
 
 **Reference(s)**:
 
-* [TG DL](http://inspire.ec.europa.eu/id/ats/download-atom/3.2/atom-pre-defined/README#ref_TG_DL), Requirement 27
+* [TG DL](./README.md#ref_TG_DL), Requirement 27
 
 **Test type**: Automated
 
@@ -22,7 +22,7 @@
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-atom/3.2/atom-pre-defined/README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
