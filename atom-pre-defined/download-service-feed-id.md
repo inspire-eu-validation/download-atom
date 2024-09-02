@@ -12,7 +12,7 @@
 **Reference(s)**:
 
 * [TG DL](./README.md#ref_TG_DL), Requirement 9
-* [Atom](REAME.md#ref_atom)
+* [Atom](README.md#ref_atom)
 
 **Test type**: Automated
 
