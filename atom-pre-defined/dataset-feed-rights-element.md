@@ -10,7 +10,7 @@
 
 **Reference(s)**:
 
-* [TG DL](./README#ref_TG_DL), Requirement 23
+* [TG DL](./README.md#ref_TG_DL), Requirement 23
 
 **Test type**:
 
@@ -22,7 +22,7 @@ It is only possible to for existence of an alphanumerical character; testing the
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

@@ -14,8 +14,8 @@ The OpenSearch description must contain a ["Url" element](#urlelement) that desc
 
 **Reference(s)**:
 
-* [TG DL](./README#ref_TG_DL), Requirement 43
-* [OpenSearch](./README#ref_opensearch)
+* [TG DL](./README.md#ref_TG_DL), Requirement 43
+* [OpenSearch](./README.md#ref_opensearch)
 
 **Test type**:
 
@@ -29,7 +29,7 @@ Comment to the TG: The Get Spatial Data Set operation implementation as OpenSear
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

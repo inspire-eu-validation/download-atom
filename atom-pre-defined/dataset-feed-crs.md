@@ -10,7 +10,7 @@
 
 **Reference(s)**:
 
-* [TG DL](./README#ref_TG_DL), Requirement 35
+* [TG DL](./README.md#ref_TG_DL), Requirement 35
 
 **Test type**:
 
@@ -22,7 +22,7 @@ Testing the contents of the value for being a valid CRS code is hard to automate
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

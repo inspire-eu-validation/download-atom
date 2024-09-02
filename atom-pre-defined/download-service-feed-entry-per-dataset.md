@@ -10,7 +10,7 @@ In the Atom service feed (the top-level feed), each combination of the [spatial_
 
 **Reference(s)**:
 
-* [TG DL](./README#ref_TG_DL), Requirement 1
+* [TG DL](./README.md#ref_TG_DL), Requirement 1
 
 **Test type**: Automated
 
@@ -18,7 +18,7 @@ In the Atom service feed (the top-level feed), each combination of the [spatial_
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

@@ -12,7 +12,7 @@ Check that the download service feed includes a link to the WFS Capabilities doc
 
 **Reference(s)**:
 
-* [TG DL](./README#ref_TG_DL), Requirement 16
+* [TG DL](./README.md#ref_TG_DL), Requirement 16
 
 **Test type**: Manual
 
@@ -20,7 +20,7 @@ Check that the download service feed includes a link to the WFS Capabilities doc
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

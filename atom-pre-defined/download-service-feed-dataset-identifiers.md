@@ -12,7 +12,7 @@ For each [entry](#entry):
 
 **Reference(s)**:
 
-* [TG DL](./README#ref_TG_DL), Requirement 13
+* [TG DL](./README.md#ref_TG_DL), Requirement 13
 
 **Test type**: Automated
 
@@ -20,7 +20,7 @@ For each [entry](#entry):
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

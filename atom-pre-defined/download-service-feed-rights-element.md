@@ -10,7 +10,7 @@
 
 **Reference(s)**:
 
-* [TG DL](./README#ref_TG_DL), Requirement 10
+* [TG DL](./README.md#ref_TG_DL), Requirement 10
 
 **Test type**: Automated
 
@@ -20,7 +20,7 @@ It is only possible to test for existence of an alphanumerical character; testin
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

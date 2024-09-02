@@ -13,8 +13,8 @@ The OpenSearch description must contain a ["Url" element](#urlelement) that desc
 
 **Reference(s)**:
 
-* [TG DL](./README#ref_TG_DL), Requirement 40
-* [OpenSearch](./README#ref_opensearch)
+* [TG DL](./README.md#ref_TG_DL), Requirement 40
+* [OpenSearch](./README.md#ref_opensearch)
 
 **Test type**:
 
@@ -26,7 +26,7 @@ The URI of the OpenSearch Description must be provided in the Download Service. 
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

@@ -7,17 +7,17 @@
 **Test method**
 
 * Validate the Atom service feed:
-  * Validate the feed against the Relax NG schema in the [Atom specification](./README#ref_atom) (or an equivalent test).
-  * Validate any XML elements in the [GeoRSS Simple](./README#ref_georss_simple) namespace against http://www.georss.org/xml/1.1/georss.xsd (or an equivalent test; since only georss:point/polygon/box may be used, those elements could be examined directly for the number of values - 2 in point, etc. - and the range of the lat/lon values). 
+  * Validate the feed against the Relax NG schema in the [Atom specification](./README.md#ref_atom) (or an equivalent test).
+  * Validate any XML elements in the [GeoRSS Simple](./README.md#ref_georss_simple) namespace against http://www.georss.org/xml/1.1/georss.xsd (or an equivalent test; since only georss:point/polygon/box may be used, those elements could be examined directly for the number of values - 2 in point, etc. - and the range of the lat/lon values). 
 * Retrieve the resource at the URI in the [link to the OpenSearch Description](#opensearchlink) to get the OpenSearch Description. Validate the OpenSearch Description using a Relax NG or XML schema (or an equivalent test). 
 * For each [link to an Atom dataset feed](#atom_dataset_feed_link) in the service feed, retrieve the resource at that URL and validate it against the same assertions as the service feed.
 
 **Reference(s)**:
 
-* [TG DL](./README#ref_TG_DL,) Requirements 2, 3, 4
-* [Atom](./README#ref_atom)
-* [GeoRSS Simple](./README#ref_georss_simple)
-* [OpenSearch](./README#ref_opensearch)
+* [TG DL](./README.md#ref_TG_DL,) Requirements 2, 3, 4
+* [Atom](./README.md#ref_atom)
+* [GeoRSS Simple](./README.md#ref_georss_simple)
+* [OpenSearch](./README.md#ref_opensearch)
 
 **Test type**: Automated
 
@@ -27,7 +27,7 @@ Note that it was decided that conformance to third-party specifications will be 
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

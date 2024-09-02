@@ -11,20 +11,20 @@
 
 **Reference(s)**:
 
-* [TG DL](./README#ref_TG_DL), Requirements 8, 39
-* [OpenSearch](./README#ref_opensearch)
+* [TG DL](./README.md#ref_TG_DL), Requirements 8, 39
+* [OpenSearch](./README.md#ref_opensearch)
 
 **Test type**: Automated
 
 **Notes**
 
-As discussed in the [overview](./README#dep) the OpenSearch description must conform to the OpenSearch specification. 
+As discussed in the [overview](./README.md#dep) the OpenSearch description must conform to the OpenSearch specification. 
 
 The [hreflang attribute](#hreflang) that is referred to in the TG seems to be unnecessary. The MIWP-5 workgroup recommends the TG editors to remove the part regarding the [hreflang attribute](#hreflang) from requirement 8.
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

@@ -11,8 +11,8 @@
 
 **Reference(s)**:
 
-* [TG DL](./README#ref_TG_DL), Requirement 22
-* [Atom](./README#ref_atom)
+* [TG DL](./README.md#ref_TG_DL), Requirement 22
+* [Atom](./README.md#ref_atom)
 
 **Test type**: Automated
 
@@ -20,7 +20,7 @@
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
