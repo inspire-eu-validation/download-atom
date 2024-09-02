@@ -1,4 +1,4 @@
-# Conformance class: Pre-defined Atom (DRAFT)
+# Conformance class: Pre-defined Atom
 
 This conformance class is part of the [Abstract Test Suite for the INSPIRE Download Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/download-atom/master).
 
