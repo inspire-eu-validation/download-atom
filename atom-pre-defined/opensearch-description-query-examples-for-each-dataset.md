@@ -17,8 +17,8 @@ For each ["Query" element](#queryelement):
 
 **Reference(s)**:
 
-* [TG DL](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/README#ref_TG_DL), Requirement 44
-* [OpenSearch](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/README#ref_opensearch)
+* [TG DL](./README.md#ref_TG_DL), Requirement 44
+* [OpenSearch](./README.md#ref_opensearch)
 
 **Test type**:
 
@@ -31,7 +31,7 @@ The Get Spatial Data Set response shall be the file corresponding to the specifi
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
