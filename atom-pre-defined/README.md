@@ -140,6 +140,19 @@ This Conformance Class contains the following tests:
 | [Separate entries for each format/CRS combination](./dataset-feed-entries.md) | ready for review |
 | [Use INSPIRE media-types only](./dataset-feed-link-media-type.md) | ready for review |
 
+## <a name="scenarios"></a> Two scenarios for providing the service metadata
+
+The [TG DL](#ref_TG_DL) gives two options (scenarios) for providing the service metadata in the Download Service Feed of the ATOM services:
+
+* Scenario 1: Use of an Atom 'link' element that links to the metadata record of the Download Service (e.g. in a discovery service). The value of the 'rel' attribute of the Atom 'link' element shall be 'describedby' and the value of the 'type' attribute shall be either 'application/xml' or 'application/vnd.ogc.csw.GetRecordByIdResponse_xml';
+
+* Scenario 2: Publish all the metadata elements directly in Download Service Feed document in accordance with Table 17b.
+
+Since there is no dedicated method in [TG DL](#ref_TG_DL) for the data provider to indicate which scenario has been chosen, the validator software must use the following logic to decide the appropriate set of tests to apply:
+
+- If the Atom 'link' element is present we assume it to be in Scenario 1.
+- If the Atom 'link' element is not present, we assume it to be in Scenario 2.
+
 
 ## Open issues
 
