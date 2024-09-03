@@ -12,9 +12,6 @@ In the Download Service Feed document performs the following checks:
 
 * check that the [feed subtitle](#subtitletitle) is not empty.
 * check that the keyword indicating the [spatial data service category](https://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory) is provided trhough the element [feed category](#category)
-* 
-
-
 
 In addition, check manually that:
 
