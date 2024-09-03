@@ -55,7 +55,8 @@ Based on requirement numbering in [TG DL](#ref_TG_DL).
 | 3     | GeoRSS Simple conformance            | [Schema validation](./schema-validation.md) | n/a |
 | 4     | OpenSearch conformance               | [Schema validation](./schema-validation.md) | n/a |
 | 5     | Download Service Feed title          | [Provide a title element](./download-service-feed-title.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1 |
-| 6     | Metadata record link for service     | [Provide link to metadata record for Download Service](./download-service-feed-link-to-metadata-record.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1; [IR MD](#ref_IR_MD), section 2.2.4 |
+| 6(1)  | Scenario 1 - Metadata record link for service     | [Provide link to metadata record for Download Service](./download-service-feed-link-to-metadata-record.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1; [IR MD](#ref_IR_MD), section 2.2.4 |
+| 6(2)  | Scenario 2 - Metadata elements in the Feed document    | [Provide Download Service metadata elements in the Feed document](./download-service-feed-embedded-metadata-elements.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1; [IR MD](#ref_IR_MD), section 2.2.4 |
 | 7     | Download Service Feed self reference | [Download Service feed self-reference link](./download-service-feed-self-reference-link.md) | n/a |
 | 8     | OpenSearch Description link          | [Download Service feed link OpenSearch Description document](./download-service-feed-link-opensearch-description-document.md) |[IR NS](#ref_IR_NS), M1, section 2.2.2|
 | 9     | Download Service Feed ID             | [Download Service feed HTTP URI](./download-service-feed-id.md) | n/a |
@@ -134,7 +135,8 @@ This Conformance Class contains the following tests:
 | [OpenSearch Description URL generic search queries](./opensearch-description-url-generic-search-queries.md) | ready for review |
 | [Provide a title element](./download-service-feed-title.md) | ready for review |
 | [Provide guidance for downloading multiple physical files](./dataset-feed-multiple-files-description.md) | ready for review |
-| [Provide link to metadata record for Download Service](./download-service-feed-link-to-metadata-record.md) | ready for review |
+| [Provide link to metadata record for Download Service - Scenario 1](./download-service-feed-link-to-metadata-record.md) | ready for review |
+| [Provide Download Service metadata elements in the Feed document - Scenario 2](./download-service-feed-embedded-metadata-elements.md) | ready for review |
 | [Schema validation](./schema-validation.md) | ready for review |
 | [Separate dataset individual Atom service feed](./download-service-feed-entry-per-dataset.md) | ready for review |
 | [Separate entries for each format/CRS combination](./dataset-feed-entries.md) | ready for review |
