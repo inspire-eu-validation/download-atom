@@ -4,6 +4,8 @@
 
 **Prerequisites**
 
+This test only applies to [Scenario 1](./README.md#scenarios). Otherwise, the test case is skipped.
+
 **Test method**
 
 * check existence of the [describedby link](#describedbylink) that refers to the metadata document
@@ -16,7 +18,7 @@
 
 **Reference(s)**:
 
-* [TG DL](./README.md#ref_TG_DL), Requirement 6
+* [TG DL](./README.md#ref_TG_DL), Requirement 6 (1)
 
 
 **Test type**: Automated
