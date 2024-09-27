@@ -55,7 +55,8 @@ Based on requirement numbering in [TG DL](#ref_TG_DL).
 | 3     | GeoRSS Simple conformance            | [Schema validation](./schema-validation.md) | n/a |
 | 4     | OpenSearch conformance               | [Schema validation](./schema-validation.md) | n/a |
 | 5     | Download Service Feed title          | [Provide a title element](./download-service-feed-title.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1 |
-| 6     | Metadata record link for service     | [Provide link to metadata record for Download Service](./download-service-feed-link-to-metadata-record.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1; [IR MD](#ref_IR_MD), section 2.2.4 |
+| 6(1)  | Scenario 1 - Metadata record link for service     | [Provide link to metadata record for Download Service](./download-service-feed-link-to-metadata-record.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1; [IR MD](#ref_IR_MD), section 2.2.4 |
+| 6(2)  | Scenario 2 - Metadata elements in the Feed document    | [Provide Download Service metadata elements in the Feed document](./download-service-feed-embedded-metadata-elements.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1; [IR MD](#ref_IR_MD), section 2.2.4 |
 | 7     | Download Service Feed self reference | [Download Service feed self-reference link](./download-service-feed-self-reference-link.md) | n/a |
 | 8     | OpenSearch Description link          | [Download Service feed link OpenSearch Description document](./download-service-feed-link-opensearch-description-document.md) |[IR NS](#ref_IR_NS), M1, section 2.2.2|
 | 9     | Download Service Feed ID             | [Download Service feed HTTP URI](./download-service-feed-id.md) | n/a |
@@ -134,11 +135,25 @@ This Conformance Class contains the following tests:
 | [OpenSearch Description URL generic search queries](./opensearch-description-url-generic-search-queries.md) | ready for review |
 | [Provide a title element](./download-service-feed-title.md) | ready for review |
 | [Provide guidance for downloading multiple physical files](./dataset-feed-multiple-files-description.md) | ready for review |
-| [Provide link to metadata record for Download Service](./download-service-feed-link-to-metadata-record.md) | ready for review |
+| [Provide link to metadata record for Download Service - Scenario 1](./download-service-feed-link-to-metadata-record.md) | ready for review |
+| [Provide Download Service metadata elements in the Feed document - Scenario 2](./download-service-feed-embedded-metadata-elements.md) | ready for review |
 | [Schema validation](./schema-validation.md) | ready for review |
 | [Separate dataset individual Atom service feed](./download-service-feed-entry-per-dataset.md) | ready for review |
 | [Separate entries for each format/CRS combination](./dataset-feed-entries.md) | ready for review |
 | [Use INSPIRE media-types only](./dataset-feed-link-media-type.md) | ready for review |
+
+## <a name="scenarios"></a> Two scenarios for providing the service metadata
+
+The [TG DL](#ref_TG_DL) gives two options (scenarios) for providing the service metadata in the Download Service Feed of the ATOM services:
+
+* Scenario 1: Use of an Atom 'link' element that links to the metadata record of the Download Service (e.g. in a discovery service). The value of the 'rel' attribute of the Atom 'link' element shall be 'describedby' and the value of the 'type' attribute shall be either 'application/xml' or 'application/vnd.ogc.csw.GetRecordByIdResponse_xml';
+
+* Scenario 2: Publish all the metadata elements directly in Download Service Feed document in accordance with Table 17b.
+
+Since there is no dedicated method in [TG DL](#ref_TG_DL) for the data provider to indicate which scenario has been chosen, the validator software must use the following logic to decide the appropriate set of tests to apply:
+
+- If the Atom 'link' element is present we assume it to be in Scenario 1.
+- If the Atom 'link' element is not present, we assume it to be in Scenario 2.
 
 
 ## Open issues
